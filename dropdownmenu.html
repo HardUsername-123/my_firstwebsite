@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="dropdownmenu.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dropdown menu & Responsive navbar</title>
+</head>
+<body>
+    <div class = "main">
+        <div class = "nav">
+            <img src = "profile.png" class = "logo" onclick="toggleMenu()">
+            <ul class = "nav-links" id = "navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Contact</a></li>
+                <button>Sign up</button>
+            </ul>
+                <i class="fas fa-align-justify" id = "resBtn"></i>
+            <div class = "sub-menu" id = "subMenu">
+                <div class = "menu">
+                    <div class = "user-info">
+                        <img src = "profile.png" class = "user">
+                        <h4>Axios Coding</h4>
+                    </div>
+                    <hr>
+                    <a href = "#" class = "sub-menu-link">
+                        <p>Edit profile</p>
+                        <span>></span>
+                    </a>
+                    <a href = "#" class = "sub-menu-link">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href = "#" class = "sub-menu-link">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href = "#" class = "sub-menu-link">
+                        <p>Log out</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class = "content">
+            <h1><span class = "spanStyle">SO</span>FTWARE ENGINEER</h1>
+            <p>Im student of Bachelor Science Computer Science, and i want to be come a software engineer soon<br> Im studying basic HTML, CSS and JavaScript.</p>
+            <div>
+                <button class = "styleBtn">Explore</button>
+            </div>
+        </div>
+    </div>
+  <!--  <i class="fas fa-window-close"></i>
+    <i class="fas fa-align-justify"></i> -->
+    <script src = "dropdownmenu.js"></script>
+</body>
+</html>
